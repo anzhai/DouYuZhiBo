@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eIC-lL-lSq">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -24,11 +25,11 @@
             </objects>
             <point key="canvasLocation" x="1632.824427480916" y="-593.66197183098598"/>
         </scene>
-        <!--profile-->
+        <!--Live-->
         <scene sceneID="wO8-NM-HEE">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eIC-lL-lSq" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="profile" image="btn_column_normal" selectedImage="btn_column_selected" id="XwS-Mg-sld"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eIC-lL-lSq" userLabel="Live" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Live" image="btn_column_normal" selectedImage="btn_column_selected" id="XwS-Mg-sld" userLabel="Live"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Lev-Cf-tVg">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
